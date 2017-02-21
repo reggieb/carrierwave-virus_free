@@ -5,7 +5,7 @@ require 'carrierwave/virus_free/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "carrierwave-virus_free"
-  spec.version       = Carrierwave::VirusFree::VERSION
+  spec.version       = [Carrierwave::VirusFree::VERSION, 'wcc'].join('.')
   spec.authors       = ["John Schroeder"]
   spec.email         = ["jschroeder@multiadsolutions.com"]
   spec.summary       = %q{Validate carrierwave uploads are virus free with clamav.}
